@@ -1,0 +1,53 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+}
+
+h1{
+    color: white;
+    font-weight: 300;
+    padding: 20px;
+}
+input{
+    background-color: #fff;
+    padding: 15px;
+    outline: none;
+    border: none;
+}
+button{
+    background-color: brown;
+    color: #fff;
+    font-weight: 300;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+#note-list{
+    padding: 0;
+}
+.note-item{
+    position: relative;
+    width: 300px;
+    margin: 20px auto 0;
+    padding: 5px;
+    box-sizing: border-box;
+    color: white;
+}
+
+.delete-note{
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 6px 15px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+

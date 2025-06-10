@@ -1,0 +1,15 @@
+body{
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQa4U_oXkM11JGcm6AEXpvfy8z4ROeWop2LAQ&s');
+    background-size: cover;
+    background-position: center;
+}
+img{
+    margin: 0%;
+    padding: 0%;
+    border-radius: 5%;
+    box-shadow: none;
+}
+h2{
+    color: red;
+    font-size: large;
+}

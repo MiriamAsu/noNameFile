@@ -1,0 +1,54 @@
+:root{
+    --gradient: linear-gradient(180deg, rgba(45, 112, 1253, 0.73)0% #163e92 100%);
+}
+body{
+    align-items: center;
+    justify-items: center;
+    background: linear-gradient(180deg,#2406b870);
+}
+input{
+    background: purple;
+    flex: 1;
+    padding: 10px;
+    font-weight: 14px;
+    border: none;
+    outline: none;
+    border-radius: 80px;
+}
+h2{
+    color: red;
+    font: 1em arial, sans-serif;
+    font-size: xx-large;
+}
+button{
+    background: blue;
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 30px;
+    font-size: 14px;
+    cursor: pointer;
+    padding: 16px;
+}
+ul{
+    list-style-type: none;
+    padding: 0;
+}
+li{
+    margin: 5px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f7f7f7;
+    padding: 8px;
+    border-radius: 5px;
+}
+.deleteTask{
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: rgb(255, 0, 132);
+}
+.list-check{
+    background-color: aqua;
+}

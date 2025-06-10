@@ -1,0 +1,25 @@
+body{
+    font-family: Arial, sans-serif;
+}
+nav{
+    display: flexbox;
+    justify-content: space-between;
+}
+nav a{
+    display: flexbox;
+    width: 100%;
+    text-decoration: none;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+h1{
+    font-size: medium;
+    margin-bottom: 10px;
+}
+section{
+    background-color: aqua;
+}
